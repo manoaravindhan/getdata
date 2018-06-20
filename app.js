@@ -8,61 +8,61 @@ var tabledata = [{
   "first_name": "Annadiane",
   "last_name": "Dugue",
   "email": "adugue0@nymag.com",
-  "sex": "Female"
+  "gender": "Female"
 }, {
   "id": 2,
   "first_name": "Jodi",
   "last_name": "Eadmeades",
   "email": "jeadmeades1@tuttocitta.it",
-  "sex": "Female"
+  "gender": "Female"
 }, {
   "id": 3,
   "first_name": "Frederik",
   "last_name": "McCorry",
   "email": "fmccorry2@shareasale.com",
-  "sex": "Male"
+  "gender": "Male"
 }, {
   "id": 4,
   "first_name": "Sheffie",
   "last_name": "Brauner",
   "email": "sbrauner3@wordpress.org",
-  "sex": "Male"
+  "gender": "Male"
 }, {
   "id": 5,
   "first_name": "Cathlene",
   "last_name": "Matuszinski",
   "email": "cmatuszinski4@who.int",
-  "sex": "Once"
+  "gender": "male"
 }, {
   "id": 6,
   "first_name": "Lars",
   "last_name": "Danniell",
   "email": "ldanniell5@stanford.edu",
-  "sex": "Male"
+  "gender": "Male"
 }, {
   "id": 7,
   "first_name": "Pernell",
   "last_name": "Crenshaw",
   "email": "pcrenshaw6@house.gov",
-  "sex": "twice"
+  "gender": "female"
 }, {
   "id": 8,
   "first_name": "Miller",
   "last_name": "Imlacke",
   "email": "mimlacke7@163.com",
-  "sex": "lots of time"
+  "gender": "Not known"
 }, {
   "id": 9,
   "first_name": "Rob",
   "last_name": "Crufts",
   "email": "rcrufts8@gmpg.org",
-  "sex": "Male"
+  "gender": "Male"
 }, {
   "id": 10,
   "first_name": "Yuri",
   "last_name": "Pridie",
   "email": "ypridie9@gov.uk",
-  "sex": "Male"
+  "gender": "Male"
 }];
 app.get('/',function(req,res){
   res.send("Server up and running");

@@ -1,7 +1,7 @@
 var app = require('./app');
 
 
-app.set('port', 4000);
+app.set('port', process.env.PORT || 3000);
 
 
 var server = app.listen(app.get('port'), function() {
